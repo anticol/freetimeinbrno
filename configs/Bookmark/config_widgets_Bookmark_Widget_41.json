@@ -1,0 +1,17 @@
+{
+  "bookmarks2D": [
+    {}
+  ],
+  "bookmarks3D": [],
+  "layout": {
+    "cards": false,
+    "list": true,
+    "defaultMode": "list"
+  },
+  "editable": false,
+  "syncMode": {
+    "webmap": true,
+    "custom": false
+  },
+  "isSaveLayerVisibility": false
+}

@@ -1,0 +1,102 @@
+{
+  "layerOptions": {
+    "geojsonobjectsjson_geojson_4294_0": {
+      "display": false
+    },
+    "geojsonpaths_geojson_4340": {
+      "display": false
+    },
+    "geojsonpaths_geojson_4340_1": {
+      "display": false
+    },
+    "geojsonpaths_geojson_4340_0": {
+      "display": false
+    },
+    "muzeum_mb_447": {
+      "display": false
+    },
+    "muzeum_mb_5344": {
+      "display": false
+    },
+    "muzeum_mb_6078": {
+      "display": false
+    },
+    "export__2__geojson_4379_0": {
+      "display": false
+    },
+    "export__1__geojson_4600_0": {
+      "display": false
+    },
+    "csv_1924_0": {
+      "display": false
+    },
+    "csv_7953_0": {
+      "display": false
+    },
+    "vyznamna_zelen_9405": {
+      "display": false
+    },
+    "vyznamna_zelen_8320": {
+      "display": false
+    },
+    "vyznamna_zelen_8904": {
+      "display": false
+    },
+    "webles_pohyb_rekr_8750": {
+      "display": false
+    },
+    "webles_pohyb_rekr_5766": {
+      "display": true
+    },
+    "webles_pohyb_rekr_9297": {
+      "display": true
+    },
+    "webles_pohyb_rekr_1284": {
+      "display": false
+    },
+    "webles_pohyb_rekr_9131": {
+      "display": true
+    },
+    "webles_pohyb_rekr_4720": {
+      "display": true
+    },
+    "webles_pohyb_rekr_1183": {
+      "display": true
+    },
+    "webles_pohyb_rekr_5583": {
+      "display": true
+    },
+    "webles_pohyb_rekr_4544": {
+      "display": false
+    },
+    "Mestske_casti_3291": {
+      "display": false
+    },
+    "ochrana_prirody_613": {
+      "display": false
+    },
+    "ochrana_prirody_8564": {
+      "display": false
+    },
+    "ochrana_prirody_137": {
+      "display": false
+    },
+    "ochrana_prirody_477": {
+      "display": false
+    },
+    "vodni_toky_7170": {
+      "display": false
+    },
+    "vodni_toky_7170_0": {
+      "display": false
+    },
+    "vodni_toky_7170_1": {
+      "display": false
+    },
+    "basemap_brno_zakladni_mapa_tiled_9879": {
+      "display": false
+    }
+  },
+  "zoomTo": false,
+  "isExclusive": false
+}

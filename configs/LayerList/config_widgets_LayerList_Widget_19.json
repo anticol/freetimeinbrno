@@ -1,0 +1,111 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": false,
+    "Transparency": false,
+    "SetVisibilityRange": false,
+    "EnableOrDisablePopup": false,
+    "ControlLabels": false,
+    "MoveupOrMovedown": false,
+    "OpenAttributeTable": false,
+    "DescriptionOrShowItemDetailsOrDownload": false
+  },
+  "layerOptions": {
+    "csv_1737": {
+      "display": true
+    },
+    "csv_3016_0": {
+      "display": true
+    },
+    "geojsonobjectsjson_geojson_4294_0": {
+      "display": true
+    },
+    "geojsonpaths_geojson_4340": {
+      "display": true
+    },
+    "geojsonpaths_geojson_4340_1": {
+      "display": true
+    },
+    "geojsonpaths_geojson_4340_0": {
+      "display": true
+    },
+    "muzeum_mb_447": {
+      "display": true
+    },
+    "muzeum_mb_5344": {
+      "display": true
+    },
+    "muzeum_mb_6078": {
+      "display": true
+    },
+    "export__2__geojson_4379_0": {
+      "display": true
+    },
+    "export__1__geojson_4600_0": {
+      "display": true
+    },
+    "csv_1924_0": {
+      "display": true
+    },
+    "csv_7953_0": {
+      "display": true
+    },
+    "vyznamna_zelen_9405": {
+      "display": true
+    },
+    "vyznamna_zelen_8320": {
+      "display": true
+    },
+    "vyznamna_zelen_8904": {
+      "display": true
+    },
+    "webles_pohyb_rekr_8750": {
+      "display": true
+    },
+    "webles_pohyb_rekr_5766": {
+      "display": true
+    },
+    "webles_pohyb_rekr_9297": {
+      "display": true
+    },
+    "webles_pohyb_rekr_1284": {
+      "display": true
+    },
+    "webles_pohyb_rekr_9131": {
+      "display": true
+    },
+    "webles_pohyb_rekr_4720": {
+      "display": true
+    },
+    "webles_pohyb_rekr_1183": {
+      "display": true
+    },
+    "webles_pohyb_rekr_5583": {
+      "display": true
+    },
+    "webles_pohyb_rekr_4544": {
+      "display": true
+    },
+    "ochrana_prirody_613": {
+      "display": true
+    },
+    "ochrana_prirody_8564": {
+      "display": true
+    },
+    "ochrana_prirody_137": {
+      "display": true
+    },
+    "ochrana_prirody_477": {
+      "display": true
+    },
+    "vodni_toky_9917": {
+      "display": true
+    },
+    "basemap_brno_zakladni_mapa_tiled_9879": {
+      "display": false
+    }
+  }
+}
