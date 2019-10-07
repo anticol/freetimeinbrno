@@ -46,3 +46,10 @@
   color: #fff;
   max-height: 388px;
 }
+
+  @media screen and (max-width: 1200px) {
+    #intro_button{
+    display: none !important;
+  }
+   
+}

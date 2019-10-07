@@ -1,0 +1,117 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": true,
+    "EnableOrDisablePopup": true,
+    "ControlLabels": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "34162c7e04c34cfa81f88c005dc598bd_0": {
+      "display": false
+    },
+    "4620da6b70a442069946ec3d160ca8c4_0": {
+      "display": false
+    },
+    "ba24f40172a14dc8a5799c3cad9e3386": {
+      "display": false
+    },
+    "f5d9fcd769384e72b1e52e8697c80c57": {
+      "display": false
+    },
+    "367731efb53e425f9e9e0a1174a78569": {
+      "display": false
+    },
+    "csv_6555": {
+      "display": false
+    },
+    "csv_7798": {
+      "display": false
+    },
+    "csv_5586": {
+      "display": false
+    },
+    "restaurace_geojson_9415_0": {
+      "display": false
+    },
+    "kavárny_geojson_3384_0": {
+      "display": false
+    },
+    "divadla_geojson_8675_0": {
+      "display": false
+    },
+    "6c63541a3f6b493a83e4c3550df517dd": {
+      "display": false
+    },
+    "ff8e9ecb0fb345cc8caec26c12310981_0": {
+      "display": false
+    },
+    "toalety_geojson_9987_0": {
+      "display": false
+    },
+    "fontány_geojson_5408_0": {
+      "display": false
+    },
+    "export__3__geojson_4905_0": {
+      "display": false
+    },
+    "4890fdd3e05b4c1789575c8332ab20d8_0": {
+      "display": false
+    },
+    "5d04800844d6450faa804473181e34a6_0": {
+      "display": false
+    },
+    "cc02e25ccf464f039997446fd99652ea": {
+      "display": false
+    },
+    "580e9da53b8b49309b683ec050918452": {
+      "display": false
+    },
+    "ec4ecd393ee54b7ca215743ba39b03fd": {
+      "display": false
+    },
+    "cdacfee038cc4eb2a5c1007b68049518": {
+      "display": false
+    },
+    "a191aa196cfc454baf40737de6012a87": {
+      "display": true
+    },
+    "6c664e6c33b44998ac417ddc3f69bbf0": {
+      "display": true
+    },
+    "314e1dfbb1e145579a2ce7b4b0ae87bd": {
+      "display": false
+    },
+    "a6c4c66d80e74110aa32a43f5bef9778": {
+      "display": true
+    },
+    "9f04dec298cb48b499c43cfc71055b68": {
+      "display": true
+    },
+    "e7c0a01000c540279b7edac350a53822": {
+      "display": false
+    },
+    "ee9c05c7416b4a1cad74b67bf56dd447": {
+      "display": false
+    },
+    "ec536ff958f645b9b2fe0e33a4e3faf5": {
+      "display": true
+    },
+    "467f0488b1dd4a9885f7f67a03658c08": {
+      "display": true
+    },
+    "ba972803fbf54838892ca67c6babda02": {
+      "display": true
+    },
+    "76ada8b05fdd410d965d3b6f833f6ece": {
+      "display": true
+    }
+  }
+}

@@ -2,9 +2,9 @@
   "theme": {
     "name": "FoldableTheme",
     "styles": [
+      "yellow",
       "default",
       "red",
-      "yellow",
       "blue",
       "black",
       "green",
@@ -15,16 +15,19 @@
     "sharedTheme": {
       "isPortalSupport": true,
       "useHeader": false,
-      "useLogo": true
+      "useLogo": false
+    },
+    "customStyles": {
+      "mainBackgroundColor": "#a52a2a"
     }
   },
   "portalUrl": "https://muni.maps.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [],
-  "title": "Kam v Brne",
+  "title": "Volný čas v Brne",
   "subtitle": "",
   "keepAppState": false,
-  "logo": "images/app-logo.png",
+  "logo": "images/logo.png",
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
   "links": [],
   "widgetOnScreen": {
@@ -40,7 +43,8 @@
         },
         "version": "2.12",
         "id": "themes_FoldableTheme_widgets_HeaderController_Widget_20",
-        "name": "HeaderController"
+        "name": "HeaderController",
+        "config": "configs/HeaderController/config_themes_FoldableTheme_widgets_HeaderController_Widget_20.json"
       },
       {
         "uri": "widgets/Scalebar/Widget",
@@ -51,7 +55,8 @@
         },
         "version": "2.12",
         "id": "widgets_Scalebar_Widget_21",
-        "name": "Scalebar"
+        "name": "Scalebar",
+        "config": "configs/Scalebar/config_widgets_Scalebar_Widget_21.json"
       },
       {
         "uri": "widgets/Search/Widget",
@@ -76,8 +81,8 @@
         "version": "2.12",
         "id": "widgets_Coordinate_Widget_23",
         "name": "Coordinate",
-        "config": "configs/Coordinate/config_widgets_Coordinate_Widget_23.json",
-        "visible": false
+        "visible": false,
+        "config": "configs/Coordinate/config_widgets_Coordinate_Widget_23.json"
       },
       {
         "position": {
@@ -87,12 +92,9 @@
         },
         "placeholderIndex": 1,
         "id": "_24",
-        "name": "LayerToggleButton",
         "version": "2.11",
         "closeable": true,
-        "uri": "widgets/LayerToggleButton/Widget",
-        "config": "configs/LayerToggleButton/config__24.json",
-        "label": "Encyklopedie",
+        "uri": "",
         "icon": "configs\\LayerToggleButton\\icon__24.png"
       },
       {
@@ -101,15 +103,11 @@
           "top": 262,
           "relativeTo": "map"
         },
-        "placeholderIndex": 1,
+        "placeholderIndex": 2,
         "id": "_25",
-        "version": "2.11",
+        "version": "1.2",
         "closeable": true,
-        "uri": "widgets/LayerToggleButton/Widget",
-        "icon": "configs\\LayerToggleButton\\icon__25.png",
-        "name": "LayerToggleButton",
-        "label": "Architektonický manuál",
-        "config": "configs/LayerToggleButton/config__25.json"
+        "uri": ""
       },
       {
         "position": {
@@ -117,15 +115,12 @@
           "top": 112,
           "relativeTo": "map"
         },
-        "placeholderIndex": 1,
+        "placeholderIndex": 3,
         "id": "_26",
-        "name": "LayerToggleButton",
-        "label": "Kolo",
         "version": "2.11",
         "closeable": true,
         "icon": "configs\\LayerToggleButton\\icon__26.png",
-        "uri": "widgets/LayerToggleButton/Widget",
-        "config": "configs/LayerToggleButton/config__26.json"
+        "uri": ""
       },
       {
         "position": {
@@ -133,15 +128,12 @@
           "top": 162,
           "relativeTo": "map"
         },
-        "placeholderIndex": 1,
+        "placeholderIndex": 4,
         "id": "_27",
-        "name": "LayerToggleButton",
-        "label": "Příroda",
         "version": "2.11",
         "closeable": true,
         "icon": "configs\\LayerToggleButton\\icon__27.png",
-        "uri": "widgets/LayerToggleButton/Widget",
-        "config": "configs/LayerToggleButton/config__27.json"
+        "uri": ""
       },
       {
         "position": {
@@ -149,15 +141,14 @@
           "top": 62,
           "relativeTo": "map"
         },
-        "placeholderIndex": 1,
+        "placeholderIndex": 5,
         "id": "_28",
-        "name": "LayerToggleButton",
-        "label": "Turistika",
-        "version": "2.11",
+        "version": "1",
         "closeable": true,
-        "icon": "configs\\LayerToggleButton\\icon__28.jpeg",
-        "uri": "widgets/LayerToggleButton/Widget",
-        "config": "configs/LayerToggleButton/config__28.json"
+        "uri": "widgets/GoogleAnalytics/Widget",
+        "name": "GoogleAnalytics",
+        "openAtStart": true,
+        "config": "configs/GoogleAnalytics/config__28.json"
       },
       {
         "uri": "widgets/OverviewMap/Widget",
@@ -203,8 +194,8 @@
         },
         "id": "widgets_AttributeTable_Widget_32",
         "name": "AttributeTable",
-        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_32.json",
-        "visible": false
+        "visible": false,
+        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_32.json"
       },
       {
         "uri": "widgets/Splash/Widget",
@@ -230,7 +221,6 @@
       },
       {
         "uri": "widgets/ExtentNavigate/Widget",
-        "visible": false,
         "position": {
           "right": 12,
           "top": 211,
@@ -249,8 +239,7 @@
         },
         "version": "2.12",
         "id": "widgets_FullScreen_Widget_36",
-        "name": "FullScreen",
-        "visible": false
+        "name": "FullScreen"
       }
     ],
     "panel": {
@@ -269,10 +258,10 @@
       "right": 0,
       "bottom": 0
     },
-    "itemId": "ea84f8c0fb8b4ddcad5f2dbc1fe98e40",
+    "itemId": "5dc5787b9f564c31bf6311d5a4c53097",
     "mapOptions": {},
     "id": "map",
-    "portalUrl": "https://muni.maps.arcgis.com/"
+    "portalUrl": "https://muni.maps.arcgis.com"
   },
   "widgetPool": {
     "panel": {
@@ -287,61 +276,175 @@
     },
     "widgets": [
       {
-        "uri": "widgets/LayerList/Widget",
-        "version": "2.12",
-        "id": "widgets_LayerList_Widget_19",
-        "name": "LayerList",
-        "index": 2,
-        "label": "Obsah mapy",
-        "config": "configs/LayerList/config_widgets_LayerList_Widget_19.json"
-      },
-      {
         "uri": "widgets/Legend/Widget",
         "version": "2.12",
-        "id": "widgets_Legend_Widget_18",
+        "id": "legenda_widget",
         "name": "Legend",
         "index": 3,
         "label": "Legenda",
-        "config": "configs/Legend/config_widgets_Legend_Widget_18.json"
+        "config": "configs/Legend/config_legenda_widget.json"
       },
       {
         "name": "Bookmark",
         "label": "Lokality",
         "version": "2.12",
         "uri": "widgets/Bookmark/Widget",
-        "config": "configs/Bookmark/config_widgets_Bookmark_Widget_41.json",
+        "config": "configs/Bookmark/config_lokality_widget.json",
         "index": 4,
-        "id": "widgets_Bookmark_Widget_41"
+        "id": "lokality_widget"
       },
       {
         "name": "BasemapGallery",
         "version": "2.12",
         "uri": "widgets/BasemapGallery/Widget",
-        "config": "configs/BasemapGallery/config_widgets_BasemapGallery_Widget_39.json",
-        "index": 5,
-        "id": "widgets_BasemapGallery_Widget_39",
+        "config": "configs/BasemapGallery/config_podkladovky_widget.json",
+        "index": 13,
+        "id": "podkladovky_widget",
         "label": "Podkladovky"
       },
       {
-        "name": "Directions",
+        "name": "Swipe",
         "version": "2.12",
-        "uri": "widgets/Directions/Widget",
-        "config": "configs/Directions/config_widgets_Directions_Widget_43.json",
-        "index": 6,
-        "id": "widgets_Directions_Widget_43",
-        "label": "Navigace"
+        "uri": "widgets/Swipe/Widget",
+        "index": 14,
+        "id": "lupa_widget",
+        "position": {
+          "relativeTo": "map"
+        },
+        "label": "Lupa",
+        "config": "configs/Swipe/config_lupa_widget.json"
+      },
+      {
+        "name": "Print",
+        "label": "Tisk",
+        "version": "2.12",
+        "uri": "widgets/Print/Widget",
+        "config": "configs/Print/config_tisk_widget.json",
+        "index": 15,
+        "id": "tisk_widget"
+      },
+      {
+        "name": "Earth",
+        "label": "Panorama",
+        "version": "1.2",
+        "icon": "configs\\Earth\\icon_widgets_Earth_Widget_55.png",
+        "uri": "widgets/Earth/Widget",
+        "config": "configs/Earth/config_panorama_widget.json",
+        "index": 16,
+        "id": "panorama_widget"
+      },
+      {
+        "name": "About",
+        "label": "Nápověda",
+        "version": "2.12",
+        "icon": "configs\\About\\icon_widgets_About_Widget_54.png",
+        "uri": "widgets/About/Widget",
+        "config": "configs/About/config_napoveda_widget.json",
+        "index": 17,
+        "id": "napoveda_widget"
       },
       {
         "name": "About",
         "label": "Informace",
         "version": "2.12",
         "uri": "widgets/About/Widget",
-        "config": "configs/About/config_widgets_About_Widget_42.json",
-        "index": 7,
-        "id": "widgets_About_Widget_42"
+        "config": "configs/About/config_informace_widget.json",
+        "index": 18,
+        "id": "informace_widget"
       }
     ],
-    "groups": []
+    "groups": [
+      {
+        "label": "Obsah mapy",
+        "id": "_47",
+        "widgets": [
+          {
+            "name": "LayerList",
+            "label": "Veřejné",
+            "version": "2.12",
+            "icon": "configs\\LayerList\\icon_widgets_LayerList_Widget_51.png",
+            "uri": "widgets/LayerList/Widget",
+            "config": "configs/LayerList/config_widgets_LayerList_Widget_51.json",
+            "index": 18,
+            "id": "widgets_LayerList_Widget_51"
+          },
+          {
+            "name": "LayerList",
+            "label": "Historie",
+            "version": "2.12",
+            "uri": "widgets/LayerList/Widget",
+            "config": "configs/LayerList/config_widgets_LayerList_Widget_48.json",
+            "index": 10,
+            "id": "widgets_LayerList_Widget_48",
+            "icon": "configs\\LayerList\\icon_widgets_LayerList_Widget_48.png"
+          },
+          {
+            "name": "LayerList",
+            "label": "Příroda",
+            "version": "2.12",
+            "uri": "widgets/LayerList/Widget",
+            "config": "configs/LayerList/config_widgets_LayerList_Widget_49.json",
+            "index": 14,
+            "id": "widgets_LayerList_Widget_49",
+            "icon": "configs\\LayerList\\icon_widgets_LayerList_Widget_49.png"
+          },
+          {
+            "name": "LayerList",
+            "label": "Turistika",
+            "version": "2.12",
+            "uri": "widgets/LayerList/Widget",
+            "config": "configs/LayerList/config_widgets_LayerList_Widget_50.json",
+            "index": 18,
+            "id": "widgets_LayerList_Widget_50",
+            "icon": "configs\\LayerList\\icon_widgets_LayerList_Widget_50.jpeg"
+          },
+          {
+            "uri": "widgets/LayerList/Widget",
+            "version": "2.12",
+            "id": "widgets_LayerList_Widget_19",
+            "name": "LayerList",
+            "index": 2,
+            "label": "Kolo",
+            "config": "configs/LayerList/config_widgets_LayerList_Widget_19.json",
+            "icon": "configs\\LayerList\\icon_widgets_LayerList_Widget_19.png"
+          },
+          {
+            "name": "LayerList",
+            "label": "Doprava",
+            "version": "2.12",
+            "uri": "widgets/LayerList/Widget",
+            "config": "configs/LayerList/config_widgets_LayerList_Widget_46.json",
+            "index": 10,
+            "id": "widgets_LayerList_Widget_46",
+            "icon": "configs\\LayerList\\icon_widgets_LayerList_Widget_46.png"
+          },
+          {
+            "name": "LayerList",
+            "label": "Všechno",
+            "version": "2.12",
+            "icon": "configs\\LayerList\\icon_widgets_LayerList_Widget_52.png",
+            "uri": "widgets/LayerList/Widget",
+            "config": "configs/LayerList/config_widgets_LayerList_Widget_52.json",
+            "index": 18,
+            "id": "widgets_LayerList_Widget_52"
+          }
+        ],
+        "index": 2,
+        "visible": true,
+        "panel": {
+          "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+          "position": {
+            "top": 5,
+            "right": 5,
+            "bottom": 5,
+            "zIndex": 5,
+            "relativeTo": "map"
+          }
+        },
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAEKUlEQVRoQ9Vau4oUQRQ9FzRRQ9dY0UDQSDFR/8APUFAUBFHBRcTABz5X8RGI+AJFEBQEf0D/wEjYyMBkMZcNDBYThZIzVg3VNfW41d3TzjQsszDTVXW67uOcUy2Y4mWM2Q3ggZ3isoh8ndZ0Mo2BjTFbANwAcBrAOjvHHwCvACyJyI++5+0ViDFmE4BzAC4C2JxY7CqAR/wTkd99AeoFiDGG4xwFcAvAduXiVuzv34uIUd6T/FlnIMaYAwAeAuBnm+szgEsiws/WV2sgxphtAO4BONJ69uaNHwBcFZHvbcarBmLz4JrNA5fIbeaO3fMLwDMAd0VkrWZQNRBjzHoApwDcziRyzdy537Ig3ATwWlsQVECMMYcAPKlI5L4AsSCcF5GPpQGTQGwl2gXgZYdELs1f+p69h+FLINmGGgViG9p9ACdLMw38/RsAV2INtQHEa2jXAWwYeJHa6VgQ7gB47heEERCvoT0eIJG1Cy79rtFQxTa0pwD2lO6c0e+XRWQvgfyvitTXc1kRkR0EwvBiZRiqR/QFoNFrxsluAW0EMK2u3RcAlmSy50b3D4G4ybZaqsCwm6VrzMf44H3WnO3sM1QIxgw5BOCespaiHKvUGn3tolqzqIDYXuPU3xDN0qnIRtPLPZ0JIKmt8xrnAgDSl+OeHu9rB1S6PrbGkKJQ5b0F8CUlctwgnkPSV0EoEkNPzO0DcMJXlY6iMGxI032SqH06XRtqlqrbtsAoCF0ZRsELy4rX2BCZyDmOFSVpfizZyc5Wii7mwQUASfPBU6OLGRK7KiILNRSlqNqUExflbKUa/ce1WrDfUSgA+JSycTLGRNZgqLSVGjs6BsJFKZ+oi6qijeNZRbwnaflYAPuVtlJ0R1MKscbqyVabXDm30eD8YU310ynESAJrNTsr3LuUDI01GRt+JKgaOc3dP0MTvBVF8XqGtsRqEpmlngBylchhb5Tm3O4WKYqNXw5MzUJzOmdQuwVMGNVKg9u/v5uvpYjp2JFBiqI40sfvNQZ3Q2uk1qKhKC6EvpV8JBvjtDc1SarhYiwai/R+MwBcYdgZGneu/PIpk6L4hrRLYCqxpLHcg2bRlHFW0VhhGFcxLUXJGsu2Ex9Who+fyAy3KEUJpLeKopDxauyg7EmTNzFPrHKaRcPdNCdf48YsIgdDiqJJyKxq89hqaLkWe00lRWkadEETrFGBy6TWMac80Cw0wX8qigeLxpLCKExbppGO7lRgVdcNx9GcDVYc3WX1UYprjayWShVYdXQWMGR3fJAq00X1WDofgQWkpShFVZk4g8811G4HPeHIlSpwwgWpPLIoirhwfUWuFcmfGlvVLYjDaM4ei6QztXVVQDw1yX9pq5aOp0ux76+rKsc67UhCV8z3CwORkJvvVzhaNNTZfakmUuHm+zWnCKDBXjz7CzGBWlHuURAwAAAAAElFTkSuQmCC",
+        "groupPopupTitle": "Configure"
+      }
+    ]
   },
   "mobileLayout": {
     "widgetOnScreen": {
@@ -2662,7 +2765,7 @@
           },
           {
             "position": {
-              "left": 500,
+              "left": 499,
               "top": 200,
               "relativeTo": "map"
             },
@@ -3765,5 +3868,5 @@
     "configWabVersion": "2.12",
     "mode": "config"
   },
-  "logoLink": null
+  "logoLink": ""
 }

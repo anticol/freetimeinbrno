@@ -22,9 +22,13 @@ define(['dojo/_base/declare',
     './common',
     'dijit/_WidgetsInTemplateMixin',
     'jimu/utils',
-    'jimu/BaseWidget'
+    'jimu/BaseWidget',
+    'dijit/form/Button',
+    'dojo/NodeList-manipulate',
+    'dojo/keys',
+    'dijit/Tooltip',
   ],
-  function(declare, html, query, on, lang, common, _WidgetsInTemplateMixin, jimuUtils, BaseWidget) {
+  function(declare, html, query, on, lang, common, _WidgetsInTemplateMixin, jimuUtils, BaseWidget, Button) {
     var clazz = declare([BaseWidget, _WidgetsInTemplateMixin], {
       baseClass: 'jimu-widget-about',
 
@@ -53,6 +57,18 @@ define(['dojo/_base/declare',
         })));
 
         jimuUtils.setWABLogoDefaultAlt(this.customContentNode);
+        this.IntroJS();
+      },
+
+     IntroJS: function(){
+        new Button({
+            label: "PRUVODCE APLIKACÍ",
+            style: "",
+            onClick: () => {
+              initIntro();
+              ga('send', 'event', 'Helper', 'open',);
+            }
+        }, this.executeIntroJS).startup();
       },
 
       resize: function () {
@@ -60,12 +76,25 @@ define(['dojo/_base/declare',
       },
 
       onOpen: function(){
+        console.log(this);
+      ga('send', 'event', 'Widget', 'widget-open', this.label);
         this.isOpen = true;
         //resolve issue #15086 when network is so slow.
         setTimeout(lang.hitch(this, function(){
           this.isOpen = false;
         }), 50);
+
+         setTimeout(lang.hitch(this, function(){
+            var el1 = document.getElementById('uniqName_11_0');
+          if(el1) el1.scrollTop = 0;
+
+          var el2 = document.getElementById('uniqName_11_1');
+          if(el2) el2.scrollTop = 0;
+        }), 400);
+     
       },
+
+     
 
       _resizeContentImg: function () {
         //record current activeElement before resizing

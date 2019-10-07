@@ -367,6 +367,7 @@ define([
 
     show: function() {
       domStyle.set(this.domNode, 'display', 'block');
+
     },
 
     _enableNavMode:function(evt) {

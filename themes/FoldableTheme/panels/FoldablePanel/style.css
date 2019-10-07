@@ -40,7 +40,7 @@
   /* position: absolute;
   left: 16px;
   right: 110px;
-  /* width: auto; */
+   width: auto; */
   flex-grow: 1;
   padding: 0 10px;
 }
@@ -98,10 +98,16 @@
 }
 
 .foldable-widget-frame>.title{
-  color: #86909c;
-  background-color: #d9dde0;
+  color: #86909c
+;  background-color: #d9dde0;
   cursor: pointer;
 }
 .foldable-widget-frame>.title>.title-label{
   font-size: 14px;
+}
+
+@media only screen and (max-width: 400px) {
+.jimu-foldable-panel {
+    width:80% !important;
+}  
 }

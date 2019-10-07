@@ -36,11 +36,14 @@ define([
     'jimu/utils',
     'jimu/dijit/Message',
     './PopupTileNodes',
-    'dojo/NodeList-manipulate'
+    'dijit/form/Button',
+    'dojo/NodeList-manipulate',
+
+
   ],
   function(declare, lang, array, html, aspect, query, on, keys, Tooltip, Deferred, mouse,
     domConstruct, domGeometry, BaseWidget, PoolControllerMixin, tokenUtils, portalUtils,
-    portalUrlUtils, utils, Message, PopupTileNodes) {
+    portalUrlUtils, utils, Message, PopupTileNodes, Button) {
     /* global jimuConfig */
     /* jshint scripturl:true */
     var clazz = declare([BaseWidget, PoolControllerMixin], {
@@ -120,10 +123,21 @@ define([
         })));
       },
 
-      startup: function() {
+        startup: function() {
         this.inherited(arguments);
         this.resize();
         setTimeout(lang.hitch(this, this.resize), 100);
+        this.IntroJS();
+      },
+
+      IntroJS: function(){
+        new Button({
+            label: "PRUVODCE APLIKACÍ",
+            style: "width: 52%;font-size: 15px;margin: 0 auto;padding-bottom: 20px;float: none !important;",
+            onClick: () => {
+              initIntro()
+            }
+        }, this.executeIntroJS).startup();
       },
 
       onAction: function(action, data) {
@@ -1133,17 +1147,23 @@ define([
           this.panelManager.showPanel(iconConfig).then(lang.hitch(this, function(panel) {
             iconNode = this._getIconNodeById(iconConfig.id);
             query('.icon-node', this.domNode).removeClass('jimu-state-selected');
-            html.addClass(iconNode, 'jimu-state-selected');
-
+            if(iconNode){
+              html.addClass(iconNode, 'jimu-state-selected');
+            }
+          
             this.openedId = iconConfig.id;
             this.own(aspect.after(panel, 'onClose', lang.hitch(this, function() {
               this._unSelectIcon(iconConfig.id);
-              iconNode.focus();
+              if(iconNode){
+                iconNode.focus();
+              }
             })));
 
             this.own(on(panel.closeNode, 'keydown', lang.hitch(this, function(evt){
               if(evt.keyCode === keys.ESCAPE){
-                iconNode.focus();
+                if(iconNode){
+                  iconNode.focus();
+                }
               }
             })));
           }));

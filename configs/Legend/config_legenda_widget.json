@@ -1,0 +1,95 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "vodni_toky_9917": {
+      "selected": true
+    },
+    "csv_3016_0": {
+      "selected": true
+    },
+    "geojsonobjectsjson_geojson_4294_0": {
+      "selected": true
+    },
+    "geojsonpaths_geojson_4340": {
+      "selected": false
+    },
+    "muzeum_mb_447": {
+      "selected": true
+    },
+    "muzeum_mb_5344": {
+      "selected": true
+    },
+    "muzeum_mb_6078": {
+      "selected": true
+    },
+    "export__2__geojson_4379_0": {
+      "selected": true
+    },
+    "export__1__geojson_4600_0": {
+      "selected": true
+    },
+    "csv_1924_0": {
+      "selected": true
+    },
+    "csv_7953_0": {
+      "selected": true
+    },
+    "vyznamna_zelen_9405": {
+      "selected": true
+    },
+    "vyznamna_zelen_8320": {
+      "selected": true
+    },
+    "vyznamna_zelen_8904": {
+      "selected": true
+    },
+    "webles_pohyb_rekr_8750": {
+      "selected": true
+    },
+    "webles_pohyb_rekr_5766": {
+      "selected": true
+    },
+    "webles_pohyb_rekr_9297": {
+      "selected": true
+    },
+    "webles_pohyb_rekr_1284": {
+      "selected": true
+    },
+    "webles_pohyb_rekr_9131": {
+      "selected": true
+    },
+    "webles_pohyb_rekr_4720": {
+      "selected": true
+    },
+    "webles_pohyb_rekr_1183": {
+      "selected": true
+    },
+    "webles_pohyb_rekr_5583": {
+      "selected": true
+    },
+    "webles_pohyb_rekr_4544": {
+      "selected": true
+    },
+    "Mestske_casti_3291": {
+      "selected": true
+    },
+    "ochrana_prirody_613": {
+      "selected": true
+    },
+    "ochrana_prirody_8564": {
+      "selected": true
+    },
+    "ochrana_prirody_137": {
+      "selected": true
+    },
+    "ochrana_prirody_477": {
+      "selected": true
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}

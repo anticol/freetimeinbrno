@@ -12,6 +12,7 @@
 
 .esriPopup .header,  .esriMobilePopupInfoView  .header{
   font-family: "Avenir Heavy";
+  font-size: 15px;
 }
 
 .esriPopup .contentPane {

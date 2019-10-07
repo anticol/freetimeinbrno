@@ -323,3 +323,15 @@ div.widget_label_name{
   text-align: center !important;
   color:white !important;
 }
+
+.jimu-widget-header-controller .jimu-title {
+    line-height: 45px !important;
+/*font-family: 'McLaren', cursive;*/
+
+}
+
+.jimu-widget-header-controller .jimu-title {
+    border-left: 1px solid #323e4f;
+    padding-left: 10px;
+    margin-left: 0px;
+}

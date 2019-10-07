@@ -157,6 +157,11 @@ define([
       //    this function will be called in two cases:
       //      1. after widget's startup
       //      2. if widget is closed, use re-open the widget
+        if(this.inPanel){
+          console.log(this);
+      ga('send', 'event', 'Widget', 'widget-open', this.label);
+    }
+     
     },
 
     onClose: function(){
@@ -164,6 +169,11 @@ define([
       //    this function will be called when widget is closed.
       // description:
       //    state has been changed to "closed" when call this method.
+      if(this.inPanel){
+        console.log(this);
+      ga('send', 'event', 'Widget', 'widget-close', this.label);
+      }
+      
     },
 
     onNormalize: function(){

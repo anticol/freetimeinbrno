@@ -6,6 +6,7 @@
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
   <title>ArcGIS Web Application</title>
+<link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="images/shortcut.ico">
   <!--[if IE 8]>
     <link rel="stylesheet" type="text/css"  href="jimu.js/css/jimu-ie.css" />
@@ -272,11 +273,19 @@ background-color: #FF6600
 }
 
 
+#social_buttons{
+    -webkit-transition: width 1.2s;/* For Safari 3.1 to 6.0 */
+  transition: width 1.2s;
+  height: 32px;
+  width: 50px;
+  overflow: hidden;
+   /*width - 180px*/
+}
 
-
-
-
-
+#social_buttons:hover{
+  width: 185px;
+  height: 32px;
+}
 
   </style>
   <link rel="stylesheet" type="text/css" href="configs/loading/loading.css" />
@@ -329,15 +338,18 @@ background-color: #FF6600
     <a role="link" id="trapLinkNode" tabindex="0">Trap Link Node</a>
     <div id="jimu-layout-manager"></div>
     <div id="skipContainer"></div>
-      <div style="height: 27px;width: 180px;position: fixed;bottom: 50px;right: 4px;">
+      <div  id="social_buttons" style="position: fixed;bottom: 50px;right: 0px;">
+ 
  <!-- AddToAny BEGIN -->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="www.davidhorov.com">
+<div id="social_icons" class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://data.brno.cz/volnycasvbrne">
+<a class="a2a_button_copy_link"></a>
 <a class="a2a_button_facebook"></a>
 <a class="a2a_button_email"></a>
-<a class="a2a_button_twitter"></a>
 <a class="a2a_button_whatsapp"></a>
-<a class="a2a_button_copy_link"></a>
+<a class="a2a_button_twitter"></a>
+
 </div>
+    </div>
 <script>
 var a2a_config = a2a_config || {};
 a2a_config.onclick = 1;
@@ -349,6 +361,7 @@ a2a_config.num_services = 4;
 
       </div>
 
+  <script src="introJS_config.js"></script>
   <script src="env.js"></script>
   <script type="text/javascript" src="simpleLoader.js"></script>
   <script type="text/javascript" src="init.js"></script>

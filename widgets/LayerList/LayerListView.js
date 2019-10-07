@@ -616,6 +616,21 @@ define([
     },
 
     _onCkSelectNodeClick: function(layerInfo, ckSelect, evt) {
+      
+      if(Array.from(ckSelect.domNode.children[0].classList).includes("jimu-icon-checked")){
+         console.log('Layer toggled ON-- ', layerInfo.title);
+          ga('send', 'event', 'Layer', 'layer-on', layerInfo.title);
+
+      }
+      else{
+       console.log('Layer toggled OFF -- ', layerInfo.title);
+        ga('send', 'event', 'Layer', 'layer-off', layerInfo.title);
+      }
+
+              //console.log(layerInfo);
+              //console.log(ckSelect);
+              //console.log(evt);
+
       if(evt.ctrlKey || evt.metaKey) {
         if(layerInfo.isRootLayer()) {
           this.turnAllRootLayers(ckSelect.checked);
@@ -627,9 +642,13 @@ define([
         layerInfo.setTopLayerVisible(ckSelect.checked);
       }
       evt.stopPropagation();
+
+
     },
 
     _onPopupMenuClick: function(layerInfo, popupMenuNode, layerTrNode, evt) {
+             ga('send', 'event', 'Popup',  'open');
+
       var rootLayerInfo = layerInfo.getRootLayerInfo();
       var popupMenu = popupMenuNode.popupMenu;
       if(!popupMenu) {

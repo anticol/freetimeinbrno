@@ -100,7 +100,10 @@ var ie = (function() {
       window.path + 'libs/cropperjs/cropper.css',
       //because we have jimu/dijit/GridLayout dijit, so we import this css here
       window.path + 'libs/goldenlayout/goldenlayout-base.css',
-      window.path + 'libs/goldenlayout/goldenlayout-light-theme.css'
+      window.path + 'libs/goldenlayout/goldenlayout-light-theme.css',
+      //Intro.js
+      window.path + 'libs/IntroJS/intro.min.js',
+      window.path + 'libs/IntroJS/introjs.min.css'
     ]);
 
     if (window.apiUrl.substr(window.apiUrl.length - 'arcgis-js-api/'.length,
@@ -222,7 +225,8 @@ var ie = (function() {
 
   function setLocale(){
     if(window.queryObject.locale){
-      dojoConfig.locale = window.queryObject.locale.toLowerCase();
+      //dojoConfig.locale = window.queryObject.locale.toLowerCase();
+      dojoConfig.locale = "cs";
       window._setRTL(dojoConfig.locale);
       return;
     }
@@ -231,23 +235,27 @@ var ie = (function() {
       /*jshint -W061 */
       var userObj = eval('(' + unescape(allCookies.esri_auth) + ')');
       if(userObj.culture){
-        dojoConfig.locale = userObj.culture;
+        //dojoConfig.locale = userObj.culture;
+        dojoConfig.locale = "cs";
       }
     }
 
     if(window.queryObject.mode){
       if(allCookies.wab_locale){
-        dojoConfig.locale = allCookies.wab_locale;
+        //dojoConfig.locale = allCookies.wab_locale;
+        dojoConfig.locale = "cs";
       }
     }else{
       if(allCookies.wab_app_locale){
-        dojoConfig.locale = allCookies.wab_app_locale;
+        //dojoConfig.locale = allCookies.wab_app_locale;
+        dojoConfig.locale = "cs";
       }
     }
 
 
     if(!dojoConfig.locale){
-      dojoConfig.locale = navigator.language ? navigator.language : navigator.userLanguage;
+      //dojoConfig.locale = navigator.language ? navigator.language : navigator.userLanguage;
+      dojoConfig.locale = "cs";
     }
 
     dojoConfig.locale = dojoConfig.locale.toLowerCase();
