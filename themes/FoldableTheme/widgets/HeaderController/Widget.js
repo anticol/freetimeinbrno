@@ -1147,23 +1147,17 @@ define([
           this.panelManager.showPanel(iconConfig).then(lang.hitch(this, function(panel) {
             iconNode = this._getIconNodeById(iconConfig.id);
             query('.icon-node', this.domNode).removeClass('jimu-state-selected');
-            if(iconNode){
-              html.addClass(iconNode, 'jimu-state-selected');
-            }
-          
+            html.addClass(iconNode, 'jimu-state-selected');
+
             this.openedId = iconConfig.id;
             this.own(aspect.after(panel, 'onClose', lang.hitch(this, function() {
               this._unSelectIcon(iconConfig.id);
-              if(iconNode){
-                iconNode.focus();
-              }
+              iconNode.focus();
             })));
 
             this.own(on(panel.closeNode, 'keydown', lang.hitch(this, function(evt){
               if(evt.keyCode === keys.ESCAPE){
-                if(iconNode){
-                  iconNode.focus();
-                }
+                iconNode.focus();
               }
             })));
           }));

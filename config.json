@@ -24,7 +24,7 @@
   "portalUrl": "https://muni.maps.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [],
-  "title": "Volný čas v Brne",
+  "title": "Volný čas v Brně",
   "subtitle": "",
   "keepAppState": false,
   "logo": "images/logo.png",
@@ -167,7 +167,7 @@
       {
         "uri": "widgets/HomeButton/Widget",
         "position": {
-          "right": 12,
+          "left": 12,
           "top": 102,
           "relativeTo": "map"
         },
@@ -178,13 +178,14 @@
       {
         "uri": "widgets/MyLocation/Widget",
         "position": {
-          "right": 12,
+          "left": 12,
           "top": 62,
           "relativeTo": "map"
         },
         "version": "2.12",
         "id": "widgets_MyLocation_Widget_31",
-        "name": "MyLocation"
+        "name": "MyLocation",
+        "config": "configs/MyLocation/config_widgets_MyLocation_Widget_31.json"
       },
       {
         "uri": "widgets/AttributeTable/Widget",
@@ -211,7 +212,7 @@
       {
         "uri": "widgets/ZoomSlider/Widget",
         "position": {
-          "right": 12,
+          "left": 12,
           "top": 142,
           "relativeTo": "map"
         },
@@ -222,7 +223,7 @@
       {
         "uri": "widgets/ExtentNavigate/Widget",
         "position": {
-          "right": 12,
+          "left": 12,
           "top": 211,
           "relativeTo": "map"
         },
@@ -234,7 +235,7 @@
         "uri": "widgets/FullScreen/Widget",
         "position": {
           "left": 12,
-          "bottom": 203,
+          "top": 280,
           "relativeTo": "map"
         },
         "version": "2.12",
@@ -281,7 +282,6 @@
         "id": "legenda_widget",
         "name": "Legend",
         "index": 3,
-        "label": "Legenda",
         "config": "configs/Legend/config_legenda_widget.json"
       },
       {
@@ -298,7 +298,7 @@
         "version": "2.12",
         "uri": "widgets/BasemapGallery/Widget",
         "config": "configs/BasemapGallery/config_podkladovky_widget.json",
-        "index": 13,
+        "index": 5,
         "id": "podkladovky_widget",
         "label": "Podkladovky"
       },
@@ -306,7 +306,7 @@
         "name": "Swipe",
         "version": "2.12",
         "uri": "widgets/Swipe/Widget",
-        "index": 14,
+        "index": 6,
         "id": "lupa_widget",
         "position": {
           "relativeTo": "map"
@@ -315,23 +315,22 @@
         "config": "configs/Swipe/config_lupa_widget.json"
       },
       {
-        "name": "Print",
-        "label": "Tisk",
-        "version": "2.12",
-        "uri": "widgets/Print/Widget",
-        "config": "configs/Print/config_tisk_widget.json",
-        "index": 15,
-        "id": "tisk_widget"
-      },
-      {
         "name": "Earth",
         "label": "Panorama",
         "version": "1.2",
         "icon": "configs\\Earth\\icon_widgets_Earth_Widget_55.png",
         "uri": "widgets/Earth/Widget",
         "config": "configs/Earth/config_panorama_widget.json",
-        "index": 16,
+        "index": 7,
         "id": "panorama_widget"
+      },
+      {
+        "name": "Print",
+        "version": "2.12",
+        "uri": "widgets/Print/Widget",
+        "config": "configs/Print/config_tisk_widget.json",
+        "index": 8,
+        "id": "tisk_widget"
       },
       {
         "name": "About",
@@ -340,7 +339,7 @@
         "icon": "configs\\About\\icon_widgets_About_Widget_54.png",
         "uri": "widgets/About/Widget",
         "config": "configs/About/config_napoveda_widget.json",
-        "index": 17,
+        "index": 9,
         "id": "napoveda_widget"
       },
       {
@@ -349,7 +348,7 @@
         "version": "2.12",
         "uri": "widgets/About/Widget",
         "config": "configs/About/config_informace_widget.json",
-        "index": 18,
+        "index": 10,
         "id": "informace_widget"
       }
     ],
@@ -3868,5 +3867,5 @@
     "configWabVersion": "2.12",
     "mode": "config"
   },
-  "logoLink": ""
+  "logoLink": "https://data.brno.cz/volnycasvbrne/"
 }

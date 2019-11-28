@@ -4,7 +4,7 @@
       "timeout": 15000
     },
     "highlightLocation": true,
-    "useTracking": true,
-    "scale": 5000
+    "useTracking": false,
+    "scale": 50000
   }
 }

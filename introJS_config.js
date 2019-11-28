@@ -9,52 +9,52 @@ function initIntro(){
             },
             {
                 element: getNode('[settingid="_47"]'),
-                intro: "Obsahuje zoznam vrstiev s dátami, ktoré môže používateľ zobraziť alebo skryť. Vrstvy sú pre väčšiu prehľadnosť rozdelené do šiestich kategórií. Užívateľ môže pomocou vstupného textového poľa vrstvy filtrovať podľa názvu. Každá dátová vrstva má podľa významu zobrazovaných bodov alebo polygónov vlastný symbol na mape. Je možné zobraziť viacero dátových vrstiev naraz. Tento widget obsahuje tlačidlo pre zobrazenie všetkých vrstiev a skrytie aktuálne zobrazených vrstiev",
+                intro: "Seznam vrstev s daty, které může uživatel zobrazit nebo skrýt. Vrstvy jsou pro větší přehlednost rozděleny do šesti kategorií. Uživatel může pomocí vstupního textového pole vrstvy filtrovat podle názvu. Každá datová vrstva má podle významu zobrazovaných bodů nebo polygonů vlastní symbol na mapě. Je možné zobrazit více datových vrstev najednou. Tento widget obsahuje tlačítko pro zobrazení všech vrstev a skrytí aktuální zobrazených vrstev.",
                 position: 'bottom'
             },
             {
                 element: getNode('[settingid="legenda_widget"]'),
-                intro: "Obsahuje zoznam názvov dátových vrstiev a ku ním prislúchajúcich symbolov alebo značiek, ktoré sú aktuálne zobrazené na mape. Symbol zobrazujúci objekty dátovej vrstvy je vždy vybraný tak aby bolo pre používateľa jednoduché a intuitívne rozoznať o akú vrstvu sa jedná. Napríklad dátová vrstva Športoviská je na mape zobrazená športovými loptami. ",
+                intro: "Seznam názvů datových vrstev a ke jím příslušejících symbolů nebo značek, které jsou aktuálně zobrazené na mapě. Symbol zobrazující objekty datové vrstvy je vždy vybrán tak aby bylo pro uživatele jednoduché a intuitivní rozeznat o jakou datovou vrstvu se jedná. Například datová vrstva Sportoviště je na mapě zobrazena sportovními míči.",
                 position: 'bottom'
             },
             {
                 element: getNode('[settingid="lokality_widget"]'),
-                intro: "Obsahuje zoznam geografických oblastí v Brne a okolí. Po kliknutí na vybranú oblasť sa mapa automaticky presunie na zvolené miesto.",
+                intro: "Seznam geografických oblastí v Brně a okolí. Po kliknutí na vybranou oblast se mapa automaticky přesune na zvolené místo.",
                 position: 'bottom'
             },
             {
                 element: getNode('[settingid="podkladovky_widget"]'),
-                intro: "Tento widget ponúka zoznam možností zmeny mapového podkladu. Na výber je jedenásť podkladov, medzi ktorými si používateľ môže ľubovoľne prepínať. Pre väčšiu prehľadnosť zobrazovaných vrstiev je predvolená tmavá podkladová mapa. V budúcnosti je možné tieto podklady ľubovoľne pridávať alebo odoberať.",
+                intro: "Tento widget nabízí seznam možností změny mapového podkladu. Na výběr je jedenáct podkladů, mezi kterými si uživatel může libovolně přepínat.",
                 position: 'bottom'
             },
             {
                 element: getNode('[settingid="lupa_widget"]'),
-                intro: "Tento widget umožňuje interaktívne pracovať s viacerými vrstvami. Slúži pre zvýšenie prehľadnosti zobrazených vrstiev na mape. Po otvorení widgetu sa zobrazí lupa vyrezávajúca oblasť na mape, s ktorou môže užívateľ manipulovať a presúvať ju. Z aktuálne zobrazených vrstiev si užívateľ môže vybrať tie, ktoré sa majú vo vyrezanej oblasti zobraziť. Zvyšné aktívne vrstvy sa budú zobrazovať na celej mape, ale vrstvy vybrané pomocou lupy sa zobrazia len vo vyrezanej oblasti.",
+                intro: "Tento widget umožňuje interaktivní pracovat s více vrstvami. Slouží pro zvýšení přehlednosti zobrazených vrstev na mapě. Po otevření widgetu se zobrazí lupa s výběrem oblasti na mapě, se kterou může uživatel manipulovat a přesouvat ji. Aktuálně zobrazené vrstvy se uživateli zobrazí pouze ve vyříznuté oblasti a tak se může soustředit a vyhledávat body zájmu v této oblasti. Na zbývající části mapy nebudou datové vrstvy zobrazeny.",
                 position: 'bottom'
             },
             {
                 element: getNode('[settingid="tisk_widget"]'),
-                intro: "Umožňuje vytlačiť aktuálny rozsah mapy spolu so zobrazenými vrstvami. Používateľ má možnosť zvoliť si formát a rozvrhnutie tlačeného dokumentu.",
+                intro: "Umožňuje vytisknout aktuální rozsah mapy spolu se zobrazenými vrstvami. Uživatel má možnost zvolit si formát a rozvržení tištěného dokumentu.",
                 position: 'bottom'
             }, 
             {
                 element: getNode('[settingid="panorama_widget"]'),
-                intro: "TODO",
+                intro: "Widget zobrazující panorama vybraného místa z mapy. Po klinutí na místo je v prohlížeči otevřeno nové okno s 3D panoramatem.",
                 position: 'bottom'
             },
             {
                 element: getNode('[settingid="napoveda_widget"]'),
-                intro: "Tento widget obsahuje informácie o zobrazovaných dátových vrstvách, ich atribútoch a prehľadný popis widgetov, s ktorými môžu používateľia aplikácie pracovať.",
+                intro: "Tento widget obsahuje informace o zobrazovaných datových vrstvách, jejich atributech a přehledný popis widgetů, se kterými mohou uživatelé aplikace pracovat.",
                 position: 'bottom'
             },
             {
                 element: getNode('[settingid="informace_widget"]'),
-                intro: "Základné informácie o aplikácii Volný čas v Brne, popis jednotlivých dátových vrstiev a odkazy na poskytovateľov dát. Tento widget sa automaticky otvára pri spustení aplikácie.",
+                intro: "Základní informace o aplikaci Volný čas v Brně a odkazy na poskytovatele dat.",
                 position: 'bottom'
             },
             {
                 element: '#step5',
-                intro: 'Hotovo :)'
+                intro: 'Hotovo, užijte si volný čas v Brně :)'
             }
         ]
     }).start();

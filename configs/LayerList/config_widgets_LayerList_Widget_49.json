@@ -57,7 +57,7 @@
       "display": false
     },
     "fontány_geojson_5408_0": {
-      "display": false
+      "display": true
     },
     "export__3__geojson_4905_0": {
       "display": false
@@ -71,17 +71,14 @@
     "cc02e25ccf464f039997446fd99652ea": {
       "display": false
     },
-    "580e9da53b8b49309b683ec050918452": {
-      "display": false
-    },
     "ec4ecd393ee54b7ca215743ba39b03fd": {
-      "display": false
+      "display": true
     },
     "cdacfee038cc4eb2a5c1007b68049518": {
       "display": false
     },
     "a191aa196cfc454baf40737de6012a87": {
-      "display": true
+      "display": false
     },
     "6c664e6c33b44998ac417ddc3f69bbf0": {
       "display": true
@@ -90,7 +87,7 @@
       "display": false
     },
     "a6c4c66d80e74110aa32a43f5bef9778": {
-      "display": true
+      "display": false
     },
     "9f04dec298cb48b499c43cfc71055b68": {
       "display": true

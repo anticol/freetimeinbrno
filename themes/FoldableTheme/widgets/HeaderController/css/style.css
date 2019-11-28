@@ -335,3 +335,24 @@ div.widget_label_name{
     padding-left: 10px;
     margin-left: 0px;
 }
+
+
+
+
+@media only screen and (max-width: 400px) {
+  .esriPopupWrapper{
+  zoom: 1.1;
+    -moz-transform: scale(1.1);
+}
+
+
+.attrValue > a {
+    font-size: 14px;
+}
+ 
+.esriPopup .titleButton.close, .esriPopup .titleButton.maximize, .esriPopup .titleButton.next, .esriPopup .titleButton.prev, .titlePane > .title {
+    zoom: 1.35;
+    margin-top: -2px;
+}
+
+}

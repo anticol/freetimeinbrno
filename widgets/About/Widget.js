@@ -62,7 +62,7 @@ define(['dojo/_base/declare',
 
      IntroJS: function(){
         new Button({
-            label: "PRUVODCE APLIKACÍ",
+            label: "PRŮVODCE APLIKACÍ",
             style: "",
             onClick: () => {
               initIntro();

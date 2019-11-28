@@ -16,19 +16,22 @@
     "367731efb53e425f9e9e0a1174a78569": {
       "selected": true
     },
-    "csv_4431": {
+    "csv_6555": {
       "selected": true
     },
-    "csv_7341": {
+    "csv_7798": {
+      "selected": true
+    },
+    "csv_5586": {
+      "selected": true
+    },
+    "restaurace_geojson_9415_0": {
       "selected": true
     },
     "kavárny_geojson_3384_0": {
       "selected": true
     },
     "divadla_geojson_8675_0": {
-      "selected": true
-    },
-    "csv_4208": {
       "selected": true
     },
     "6c63541a3f6b493a83e4c3550df517dd": {
@@ -53,9 +56,6 @@
       "selected": true
     },
     "cc02e25ccf464f039997446fd99652ea": {
-      "selected": true
-    },
-    "580e9da53b8b49309b683ec050918452": {
       "selected": true
     },
     "ec4ecd393ee54b7ca215743ba39b03fd": {
@@ -102,7 +102,36 @@
   "isZoom": false,
   "handleColor": "#dadada",
   "layerMode": "mult",
-  "defaultLayers": [],
+  "defaultLayers": [
+    "34162c7e04c34cfa81f88c005dc598bd_0",
+    "4620da6b70a442069946ec3d160ca8c4_0",
+    "ba24f40172a14dc8a5799c3cad9e3386",
+    "f5d9fcd769384e72b1e52e8697c80c57",
+    "367731efb53e425f9e9e0a1174a78569",
+    "kavárny_geojson_3384_0",
+    "divadla_geojson_8675_0",
+    "6c63541a3f6b493a83e4c3550df517dd",
+    "ff8e9ecb0fb345cc8caec26c12310981_0",
+    "toalety_geojson_9987_0",
+    "fontány_geojson_5408_0",
+    "export__3__geojson_4905_0",
+    "4890fdd3e05b4c1789575c8332ab20d8_0",
+    "5d04800844d6450faa804473181e34a6_0",
+    "cc02e25ccf464f039997446fd99652ea",
+    "ec4ecd393ee54b7ca215743ba39b03fd",
+    "cdacfee038cc4eb2a5c1007b68049518",
+    "a191aa196cfc454baf40737de6012a87",
+    "6c664e6c33b44998ac417ddc3f69bbf0",
+    "314e1dfbb1e145579a2ce7b4b0ae87bd",
+    "a6c4c66d80e74110aa32a43f5bef9778",
+    "9f04dec298cb48b499c43cfc71055b68",
+    "e7c0a01000c540279b7edac350a53822",
+    "ee9c05c7416b4a1cad74b67bf56dd447",
+    "ec536ff958f645b9b2fe0e33a4e3faf5",
+    "467f0488b1dd4a9885f7f67a03658c08",
+    "ba972803fbf54838892ca67c6babda02",
+    "76ada8b05fdd410d965d3b6f833f6ece"
+  ],
   "invertPlacement": true,
-  "isHidePanel": false
+  "isHidePanel": true
 }
