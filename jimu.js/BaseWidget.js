@@ -150,6 +150,30 @@ define([
     },
 
     onOpen: function(){
+
+
+debugger;
+if(this.label !='Doprava') {
+PanelManager.getInstance().closePanel('widgets_LayerList_Widget_46' + '_panel');
+}
+if(this.label !='Příroda') {
+PanelManager.getInstance().closePanel('widgets_LayerList_Widget_49' + '_panel');
+}
+if(this.label !='Kolo')  {
+PanelManager.getInstance().closePanel('widgets_LayerList_Widget_19' + '_panel');
+}
+if(this.label !='Historie') {
+PanelManager.getInstance().closePanel('widgets_LayerList_Widget_48' + '_panel');
+}
+if(this.label !='Turistika') {
+PanelManager.getInstance().closePanel('widgets_LayerList_Widget_50' + '_panel');
+}
+if(this.label !='Veřejné') {
+PanelManager.getInstance().closePanel('widgets_LayerList_Widget_51' + '_panel');
+}
+if(this.label !='Všechno') {
+PanelManager.getInstance().closePanel('widgets_LayerList_Widget_52' + '_panel');
+}
       // summary:
       //    this function will be called when widget is opened everytime.
       // description:
@@ -165,6 +189,7 @@ define([
     },
 
     onClose: function(){
+
       // summary:
       //    this function will be called when widget is closed.
       // description:
