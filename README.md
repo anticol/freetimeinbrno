@@ -85,3 +85,56 @@ Zoznam území, ktoré sú zaradené medzi prírodné parky. Každé územie dis
 Vodné útvary (rieky, potoky) na území štatutárneho mesta Brna, ktoré sú charakteristické trvalým alebo občasným tečením vody. K týmto trasám máme okrem ich trajektórie informáciu o názve vodného toku.
 
 # Widgety
+
+## Obsah mapy
+Widget Obsah mapy obsahuje zoznam vrstiev s dátami, ktoré môže používateľ zobraziť alebo skryť. Vrstvy sú pre väčšiu prehľadnosť rozdelené do šiestich kategórií. Užívateľ môže pomocou vstupného textového poľa filtrovať vrstvy podľa názvu. Každá dátová vrstva má podľa významu zobrazovaných bodov alebo polygónov vlastný symbol na mape. Je možné zobraziť viacero dátových vrstiev naraz. Tento widget obsahuje tlačidlo pre zobrazenie všetkých vrstiev a skrytie aktuálne zobrazených vrstiev.
+ 
+## Legenda
+Widget Legenda obsahuje zoznam názvov dátových vrstiev a k ním prislúchajúcich symbolov alebo značiek, ktoré sú aktuálne zobrazené na mape. Symbol zobrazujúci objekty dátovej vrstvy je vždy vybraný tak, aby bolo pre používateľa jednoduché a intuitívne rozoznať o akú vrstvu sa jedná. Napríklad dátová vrstva Športoviská je na mape zobrazená športovými loptami.
+
+## Lokality
+Widget Lokality obsahuje zoznam geografických oblastí v Brne a okolí. Po kliknutí na vybranú oblasť sa mapa automaticky presunie na zvolené miesto.
+
+## Podkladovky 
+Widget Podkladovky ponúka zoznam možností zmeny mapového podkladu. Na výber je jedenásť podkladov, medzi ktorými si používateľ môže ľubovoľne prepínať. Pre väčšiu prehľadnosť zobrazovaných vrstiev je predvolená tmavá podkladová mapa. V budúcnosti je možné tieto podklady ľubovoľne pridávať alebo odoberať.
+
+##  Panorama
+Widget Panorama zobrazuje panorámu vybraného miesta z mapy. Po kliknutí na miesto je otvorené nové okno s 3D panorámou.
+
+## Tlač 
+Widget Tlač umožňuje vytlačiť aktuálny rozsah mapy spolu so zobrazenými vrstvami. Používateľ má možnosť zvoliť si formát a rozvrhnutie
+tlačeného dokumentu.
+
+## Nápoveda
+Widget Nápoveda obsahuje informácie o zobrazovaných dátových vrstvách, ich atribútoch a odkaz na sprievodcu aplikáciou.
+
+##  Informácie
+Widget Informácie zobrazuje základné informácie o aplikácii Voľný čas v Brne a odkazy na poskytovateľov dát. Tento widget sa automaticky otvára pri spustení aplikácie.
+
+## Vyhľadávanie 
+Widget Vyhľadávanie umožňuje po zadaní vyhľadávacieho dotazu používateľa presunúť na konkrétnu oblasť alebo adresu na mape.
+
+##  Moja poloha
+Widget Moja poloha vycentruje mapu podľa aktuálnej polohy zariadenia používateľa. Na mape sa zobrazí modrý bod, ktorý indikuje polohu užívateľa. Pri pohybe používateľa sa tento bod pohybuje spolu s ním a reflektuje aktuálnu polohu.
+
+## Predvolený rozsah mapy
+Widget Predvolený rozsah mapy vráti mapu do základnej polohy, ktorá zobrazuje mesto Brno a jeho okolie. Je to ten istý rozsah, ktorý je nastavený pri prvotnom načítaní našej aplikácie.
+
+## Približovanie/Oddiaľovanie
+Tlačidlá +/- umožňujú priblížiť alebo oddialiť mapu.
+
+## Predchádzajúci/Ďalší rozsah mapy
+Tlačidlá ← / → umožňujú presunúť užívateľa na ďalší resp. predchádzajúci rozsah mapy.
+
+## Celá obrazovka
+Tento prepínač umožňuje zapnúť alebo vypnúť režim celej obrazovky vo webovom prehliadači.
+
+## Mierka mapy
+Widget Mierka mapy udáva pomer zmenšenia dĺžky meranej na mape k dĺžke v skutočnosti. Hodnota mierky mapy je vyjadrená v kilometroch, resp. v metroch.
+
+## Zdieľanie
+Tlačidlá umožňujúce zdieľanie odkazu na aplikáciu jedným klikom. K dispozícii je zdieľanie na sociálnej sieti Facebook, Twitter a WhatsApp, zdieľanie pomocou odoslania emailu alebo skopírovaním URL adresy aplikácie do schránky.
+
+## Google Analytics
+Widget Google Analytics je skrytý pretože neobsahuje žiadne používateľské rozhranie a slúži ku zaznamenávaniu užívateľských akcií v aplikácii. Viac informácií o tomto widgete je dostupných v kapitole 5.1.3.
+
