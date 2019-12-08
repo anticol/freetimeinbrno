@@ -4,7 +4,7 @@ rôzne voľnočasové aktivity. Pre väčšiu prehľadnosť sú tieto vrstvy
 rozdelené do šiestich kategórii (Verejné, História, Príroda, Turistika,
 Bicykel a Doprava) Táto aplikácia bola implementovaná ako súčasť mojej diplomovej práce.
 
-Viac informácií je dostupný na <a href="https://is.muni.cz/th/gty3p/"> následujúcom odkaze </a>
+Viac informácií je dostupných na <a href="https://is.muni.cz/th/gty3p/"> následujúcom odkaze </a>
 
 # Použité dátové vrstvy
 
@@ -88,7 +88,7 @@ použiť dostupný odkaz na webovú stránku Encyklopédie Brna.
 Európsky významná lokalita je jedným z typov chránených území
 v rámci sústavy NATURA 2000. Tieto lokality obsahujú chránené
 európsky významné biotopy a európsky významné druhy. Lokality sú zaradené nariadením vlády Českej Republiky do tzv. národného zoznamu. Po schválení Európskou komisiou je lokalita zapísaná
-do Európskeho zoznamu [104]. Povinnosťou každého členského štátu
+do Európskeho zoznamu. Povinnosťou každého členského štátu
 Európskej Únie je vytvoriť na svojom území zoznam takýchto miest.
 Pre každú oblasť máme k dispozícií atribúty názov, rozloha v hektároch a odkaz na Wikipédiu o danej lokalite.
 
@@ -247,5 +247,5 @@ Widget Mierka mapy udáva pomer zmenšenia dĺžky meranej na mape k dĺžke v s
 Tlačidlá umožňujúce zdieľanie odkazu na aplikáciu jedným klikom. K dispozícii je zdieľanie na sociálnej sieti Facebook, Twitter a WhatsApp, zdieľanie pomocou odoslania emailu alebo skopírovaním URL adresy aplikácie do schránky.
 
 ## Google Analytics
-Widget Google Analytics je skrytý pretože neobsahuje žiadne používateľské rozhranie a slúži ku zaznamenávaniu užívateľských akcií v aplikácii. Viac informácií o tomto widgete je dostupných v kapitole 5.1.3.
+Widget Google Analytics je skrytý pretože neobsahuje žiadne používateľské rozhranie a slúži ku zaznamenávaniu užívateľských akcií v aplikácii. Viac informácií o tomto widgete je dostupných v kapitole.
 
