@@ -3,6 +3,38 @@ Webová aplikácia mapujúca možnosti trávenia voľného času v Brne a okolí
 
 # Použité dáta
 
+
+## Divadlá
+Zoznam divadiel, v ktorých prebiehajú živé prestavenia ako sú divadelné hry, muzikály, koncerty a iné. Ku každému divadlu evidujeme
+názov a odkaz jeho na webovú stránku.
+
+## Fontány
+Zoznam viac ako päťdesiat fontán slúžiacich na kultúrne, dekoratívne
+alebo rekreačné účely.
+
+## Kaviarne
+Zoznam podnikov s miestami na sedenie, kde sa predávajú nápoje
+a občerstvenie. Patria sem kaviarne, čajovne a cukrárne.
+
+## Pitná voda
+Zoznam viac ako tridsiatich miest, na ktorých majú ľudia bezplatný
+prístup k pitnej vode.
+
+## Reštaurácie
+Zoznam takmer päťsto formálnych stravovacích zariadení s miestami
+na sedenie, kde sa servírujú jedlá. Ku každej reštaurácie evidujeme
+názov a odkaz jej na webovú stránku.
+
+## SVČ Lužánky – pracoviská
+Pracoviská Strediska voľného času Lužánky, ktoré ponúkajú pre verejnosť zaujímavé akcie, krúžky, dielne, prímestské aj pobytové tábory
+a vzdelávacie programy. Každé pracovisko obsahuje atribúty názov,
+adresa, telefón, email a odkaz na webovú stránku pracoviska, kde
+užívatelia nájdu informácie o programe a možnostiach využívania
+tohto pracoviska verejnosťou.
+
+
+
+
 ## Brnenský architektonický Manuál - Objekty 
 Viac ako štyristo architektonických objektov a stavieb z rokov 1918- 1945. V súčasnej dobe prebieha rozšírenie tejto databázy o objekty z povojnového obdobia. Ku každému objektu sú k dispozícii informácie ako názov, adresa, kategória, náhľad objektu vo forme fotografie, meno hlavného architekta a odkaz na stránku daného objektu priamo na webe BAM, kde sa nachádzajú detailnejšie informácie v troch jazykových mutáciách (čeština, angličtina a nemčina). 
 
