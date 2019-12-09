@@ -3,7 +3,7 @@
   "platform": "HTML",
   "version": "2.11",
   "wabVersion": "2.11",
-  "author": "Robert Scheitlin",
+  "author": "Robert Scheitlin & David Horov (edit)",
   "description": "Button for toggling a layer visibility",
   "copyright": "2019",
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
