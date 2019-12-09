@@ -4,6 +4,9 @@ rôzne voľnočasové aktivity. Pre väčšiu prehľadnosť sú tieto vrstvy
 rozdelené do šiestich kategórii (Verejné, História, Príroda, Turistika,
 Bicykel a Doprava) Táto aplikácia bola implementovaná ako súčasť mojej diplomovej práce.
 
+![Application UI](https://www.davidhorov.com/thesis/screen.JPG)
+
+
 Viac informácií je dostupných na <a href="https://is.muni.cz/th/gty3p/"> následujúcom odkaze </a>
 
 # Použité dátové vrstvy
